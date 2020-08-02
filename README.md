@@ -8,4 +8,8 @@
  - AnsibleからTerraformを実行することで、インターフェースをAnsibleに一本化。
  - Ansible実行で、クラウドリソースからEC2の設定までの一連の作業を自動化
  
+## フォルダ構成
+![image](https://user-images.githubusercontent.com/28664816/89120327-616d1600-d4f0-11ea-8f7f-697bf807e388.png)
+ 
+## 作成リソース
 ![04](https://user-images.githubusercontent.com/28664816/89118541-55c62300-d4e1-11ea-9f59-29c440bd6ae6.jpg)
