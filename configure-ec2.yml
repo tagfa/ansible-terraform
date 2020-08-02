@@ -1,0 +1,8 @@
+---
+- hosts: tag_Type_tf_web
+  remote_user: ec2-user
+  become: True
+  roles:
+     - common
+     - nginx
+

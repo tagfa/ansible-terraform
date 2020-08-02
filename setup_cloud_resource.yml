@@ -1,0 +1,13 @@
+---
+- hosts: 127.0.0.1
+  connection: local
+  tasks:
+  - name: Exec terraform scripts
+    terraform:
+      force_init: yes
+      project_path: 'terraform/'
+      state: present
+    register: result
+
+  - name: refresh dynamic inventory
+    meta: refresh_inventory 
