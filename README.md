@@ -23,23 +23,22 @@
 ### AWSアクセスキー設定
 
 ```
-
 $ export AWS_ACCESS_KEY_ID="xxxxxxxx"
-
 $ export AWS_SECRET_ACCESS_KEY="xxxxxxxx"
-
 $ export AWS_DEFAULT_REGION="ap-northeast-1"
-
+```
+### EC2のキーファイル格納
+sample02.pemというファイル名で保存してください。
+```
+cp [your_ssh_key] ~/.ssh/sample02.pem
 ```
 
 ### Git Clone
 ```
 git clone https://github.com/tagfa/ansible-terraform.git
-
 ```
 ### Ansible実行
 ```
 cd ansible-terraform
 ansible-playbook -i inventory/ site.yml
-
 ```
