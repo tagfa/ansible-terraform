@@ -31,6 +31,7 @@ $ export AWS_DEFAULT_REGION="ap-northeast-1"
 sample02.pemというファイル名で保存してください。
 ```
 cp [your_ssh_key] ~/.ssh/sample02.pem
+chmod 600 ~/.ssh/sample02.pem
 ```
 
 ### Git Clone
