@@ -33,4 +33,13 @@ $ export AWS_DEFAULT_REGION="ap-northeast-1"
 ```
 
 ### Git Clone
+```
+git clone https://github.com/tagfa/ansible-terraform.git
 
+```
+### Ansible実行
+```
+cd ansible-terraform
+ansible-playbook -i inventory/ site.yml
+
+```
