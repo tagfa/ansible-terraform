@@ -14,7 +14,18 @@
 ## 作成リソース
 ![04](https://user-images.githubusercontent.com/28664816/89118541-55c62300-d4e1-11ea-9f59-29c440bd6ae6.jpg)
 
-## 利用
+## 利用方法
+### インストール
 - Ansible 2.9.9
 - Terraform v0.12.29
 - boto 2.49.0
+
+## AWSアクセスキー設定
+
+'''
+
+$ export AWS_ACCESS_KEY_ID="xxxxxxxx"
+$ export AWS_SECRET_ACCESS_KEY="xxxxxxxx"
+$ export AWS_DEFAULT_REGION="ap-northeast-1"
+
+'''
